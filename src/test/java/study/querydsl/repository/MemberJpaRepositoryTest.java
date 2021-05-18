@@ -44,7 +44,7 @@ class MemberJpaRepositoryTest {
     }
 
     @Test
-    public void searchTest() {
+    public void search() {
         Team teamA = new Team("teamA");
         Team teamB = new Team("teamB");
         em.persist(teamA);
